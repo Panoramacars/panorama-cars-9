@@ -14,7 +14,7 @@ const Footer = (): JSX.Element => {
   return (
     <S.Wrapper>
       <S.LinkGrid>
-        <H3>LINKS</H3>
+        <H3>Panorama Cars</H3>
         <UserLinks includeRss />
       </S.LinkGrid>
       <S.Info>

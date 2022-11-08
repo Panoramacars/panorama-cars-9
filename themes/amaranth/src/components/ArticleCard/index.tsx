@@ -6,7 +6,7 @@ import ReadButton from "./ArticleButton";
 import { H3 } from "../../theme";
 import { TransparentLink } from "../Links";
 
-import AdvancedLogo from "./dino.png";
+import { StaticImage } from "gatsby-plugin-image"
 
 
 import ArticleCardSkeleton from "./Skeleton";
@@ -41,9 +41,9 @@ const ArticleCard = ({ post, hero }: ArticleHeroCardProps): JSX.Element => {
               <H3 as="h2">{post.title}</H3>
             </TransparentLink>
           </S.Header>
-export { AdvancedLogo };
-        </S.Meta>
-        {hero && <ReadButton to={post.slug} />}
+          export function Kitten() {
+  return <StaticImage src="https://placekitten.com/800/600" alt="A kitten" />
+}
       </S.Details>
     </S.Wrapper>
   );

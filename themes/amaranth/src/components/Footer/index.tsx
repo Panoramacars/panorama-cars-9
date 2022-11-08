@@ -20,11 +20,11 @@ const Footer = (): JSX.Element => {
       <S.Info>
         <Caption>
           Based on{" "}
-          <AnimatedLink to="https://github.com/Vagr9K/gatsby-advanced-starter">
-            Gatsby Advanced Starter
+          <AnimatedLink to="https://www.panoramacars.ae">
+            Panorama Rent A Cars
           </AnimatedLink>
         </Caption>
-        <Caption>{config.website.copyright}</Caption>
+        <Caption>2023</Caption>
       </S.Info>
     </S.Wrapper>
   );

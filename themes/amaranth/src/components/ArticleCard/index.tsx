@@ -6,7 +6,6 @@ import ReadButton from "./ArticleButton";
 import { H3 } from "../../theme";
 import { TransparentLink } from "../Links";
 
-import { StaticImage } from "gatsby-plugin-image"
 
 
 import ArticleCardSkeleton from "./Skeleton";

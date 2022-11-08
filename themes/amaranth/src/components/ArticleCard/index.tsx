@@ -38,6 +38,9 @@ const ArticleCard = ({ post, hero }: ArticleHeroCardProps): JSX.Element => {
               <H3 as="h2">{post.title}</H3>
             </TransparentLink>
           </S.Header>
+          ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "")
+          ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "")
+          ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "")
         </S.Meta>
         {hero && <ReadButton to={post.slug} />}
       </S.Details>

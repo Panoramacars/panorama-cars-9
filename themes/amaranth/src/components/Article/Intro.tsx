@@ -6,7 +6,6 @@ import { getImage } from "gatsby-plugin-image";
 import { Types } from "gatsby-theme-advanced";
 
 import { H1, Body } from "../../theme";
-import ArticleInfo from "../ArticleInfo";
 import { CoverImage } from "./Image";
 import { WidthWrapper } from "./Spacing";
 
@@ -55,9 +54,6 @@ const ArticleIntro = ({ post }: ArticleIntroProps): JSX.Element => {
         </Details>
       </WidthWrapper>
       <Cover>
-        <WidthWrapper>
-          <ArticleInfo post={post} />
-        </WidthWrapper>
         <CoverImage image={imgData} alt={post.coverImageAlt} />
       </Cover>
     </Wrapper>

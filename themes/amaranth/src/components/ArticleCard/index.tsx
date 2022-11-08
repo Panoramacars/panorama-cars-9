@@ -6,6 +6,9 @@ import ReadButton from "./ArticleButton";
 import { H3 } from "../../theme";
 import { TransparentLink } from "../Links";
 
+import React from "react";
+import imageToAdd from "./../assets/images/logo.png";
+
 import ArticleCardSkeleton from "./Skeleton";
 
 import * as S from "./styles";
@@ -38,9 +41,9 @@ const ArticleCard = ({ post, hero }: ArticleHeroCardProps): JSX.Element => {
               <H3 as="h2">{post.title}</H3>
             </TransparentLink>
           </S.Header>
-          ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "")
-          ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "")
-          ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "")
+          function YourComponent() {
+   return <img src={imageToAdd} alt="Image" />;
+}
         </S.Meta>
         {hero && <ReadButton to={post.slug} />}
       </S.Details>

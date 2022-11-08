@@ -17,11 +17,11 @@ const Footer = (): JSX.Element => {
       <div className="info">
         <p>
           Based on{" "}
-          <Link to="https://github.com/Vagr9K/gatsby-advanced-starter">
+          <Link to="https://www.panoramacars.ae">
             Panorama Rent a Car
           </Link>
         </p>
-        <p>{config.website.copyright}</p>
+        <p>2023</p>
       </div>
     </footer>
   );

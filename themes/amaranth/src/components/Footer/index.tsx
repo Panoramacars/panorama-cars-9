@@ -19,7 +19,6 @@ const Footer = (): JSX.Element => {
       </S.LinkGrid>
       <S.Info>
         <Caption>
-          Based on{" "}
           <AnimatedLink to="https://www.panoramacars.ae">
             Panorama Rent A Cars
           </AnimatedLink>

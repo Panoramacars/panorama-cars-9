@@ -38,9 +38,6 @@ const ArticleCard = ({ post, hero }: ArticleHeroCardProps): JSX.Element => {
               <H3 as="h2">{post.title}</H3>
             </TransparentLink>
           </S.Header>
-          <TransparentLink to={post.slug} ariaLabel={post.title}>
-            <S.Excerpt hero={hero}>{post.excerpt}</S.Excerpt>
-          </TransparentLink>
         </S.Meta>
         {hero && <ReadButton to={post.slug} />}
       </S.Details>

@@ -6,8 +6,8 @@ import ReadButton from "./ArticleButton";
 import { H3 } from "../../theme";
 import { TransparentLink } from "../Links";
 
-import React from "react";
-import imageToAdd from "./../assets/images/logo.png";
+import { StaticImage } from "gatsby-plugin-image"
+
 
 import ArticleCardSkeleton from "./Skeleton";
 
@@ -41,8 +41,17 @@ const ArticleCard = ({ post, hero }: ArticleHeroCardProps): JSX.Element => {
               <H3 as="h2">{post.title}</H3>
             </TransparentLink>
           </S.Header>
-          function YourComponent() {
-   return <img src={imageToAdd} alt="Image" />;
+export function Dino() {
+  return (
+    <StaticImage
+      src="../images/dino.png"
+      alt="A dinosaur"
+      placeholder="blurred"
+      layout="fixed"
+      width={20}
+      height={20}
+    />
+  )
 }
         </S.Meta>
         {hero && <ReadButton to={post.slug} />}

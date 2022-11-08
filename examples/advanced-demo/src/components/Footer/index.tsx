@@ -18,7 +18,7 @@ const Footer = (): JSX.Element => {
         <p>
           Based on{" "}
           <Link to="https://github.com/Vagr9K/gatsby-advanced-starter">
-            Gatsby Advanced Starter
+            Panorama Rent a Car
           </Link>
         </p>
         <p>{config.website.copyright}</p>

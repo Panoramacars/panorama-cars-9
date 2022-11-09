@@ -20,10 +20,10 @@ const Footer = (): JSX.Element => {
       <S.Info>
         <Caption>
           <AnimatedLink to="https://www.panoramacars.ae">
-           © Panorama Rent A Cars L.L.C, UAE
+            Panorama Rent A Cars L.L.C, UAE
           </AnimatedLink>
         </Caption>
-        <Caption>2023</Caption>
+        <Caption>© 2023</Caption>
       </S.Info>
     </S.Wrapper>
   );

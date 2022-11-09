@@ -33,7 +33,6 @@ const ArticleCard = ({ post, hero }: ArticleHeroCardProps): JSX.Element => {
       <S.Details hero={hero}>
         <S.Meta>
           <S.Header>
-            <ArticleInfo post={post} />
             <TransparentLink to={post.slug}>
               {/* Display as an H2 for accessibility and title semantics */}
               <H3 as="h2">{post.title}</H3>

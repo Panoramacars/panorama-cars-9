@@ -10,7 +10,7 @@ import ArticleCardSkeleton from "./Skeleton";
 
 import * as S from "./styles";
 
-import whatsapp-logo from './whatsapp-logo.png';
+import logow from "./logow.svg";
 
 type ArticleHeroCardProps = {
   post?: Types.Post;
@@ -42,7 +42,7 @@ const ArticleCard = ({ post, hero }: ArticleHeroCardProps): JSX.Element => {
             function App() {
               return (
                 <div className="App">
-                  <img src={whatsapp-logo} className="logo" alt="" />
+                  <img src={logow} className="logow" alt="" />
                   </div>
           </S.Header>
         </S.Meta>

@@ -19,25 +19,25 @@ describe("component UserLinks", () => {
     const twitterLink = await screen.findByRole("link", {
       name: "Twitter Profile",
     });
-    expect(twitterLink).toHaveAttribute("href", "https://twitter.com/Vagr9K");
+    expect(twitterLink).toHaveAttribute("href", "https://twitter.com/panoramarentacar");
 
     const githubLink = await screen.findByRole("link", {
       name: "GitHub Profile",
     });
-    expect(githubLink).toHaveAttribute("href", "https://github.com/vagr9k");
+    expect(githubLink).toHaveAttribute("href", "https://github.com/panoramarentacar");
 
     const linkedInLink = await screen.findByRole("link", {
       name: "LinkedIn Profile",
     });
     expect(linkedInLink).toHaveAttribute(
       "href",
-      "https://www.linkedin.com/in/your-linkedin"
+      "https://www.linkedin.com/in/panoramarentacar"
     );
 
     const eMailLink = await screen.findByRole("link", { name: "E-Mail" });
     expect(eMailLink).toHaveAttribute(
       "href",
-      "mailto:AdvancedUser@example.com"
+      "mailto:info@panoramacars.ae"
     );
   });
 

@@ -3,7 +3,6 @@ import { getImage, IGatsbyImageData } from "gatsby-plugin-image";
 import { Types } from "gatsby-theme-advanced";
 
 import ReadButton from "./ArticleButton";
-import ArticleInfo from "../ArticleInfo";
 import { H3 } from "../../theme";
 import { TransparentLink } from "../Links";
 

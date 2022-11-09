@@ -32,7 +32,7 @@ export const NavGrid = styled.nav`
 export const SiteTitle = styled.p`
   ${styles.ButtonLabel}
 
-  @media (max-width: 500px) {
+  @media (max-width: 200px) {
     display: none;
   }
 `;

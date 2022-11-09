@@ -10,6 +10,8 @@ import ArticleCardSkeleton from "./Skeleton";
 
 import * as S from "./styles";
 
+import whatsapp-logo from './whatsapp-logo.png';
+
 type ArticleHeroCardProps = {
   post?: Types.Post;
   hero?: boolean;
@@ -37,7 +39,11 @@ const ArticleCard = ({ post, hero }: ArticleHeroCardProps): JSX.Element => {
               {/* Display as an H2 for accessibility and title semantics */}
               <H3 as="h2">{post.title}</H3>
             </TransparentLink>
-            <h4>test</h4>
+            function App() {
+              return (
+                <div className="App">
+                  <img src={whatsapp-logo} className="logo" alt="" />
+                  </div>
           </S.Header>
         </S.Meta>
         {hero && <ReadButton to={post.slug} />}

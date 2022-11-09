@@ -14,13 +14,13 @@ const Footer = (): JSX.Element => {
   return (
     <S.Wrapper>
       <S.LinkGrid>
-        <H3>Panorama Cars</H3>
+        <H4>Panorama Rent A Cars</H4>
         <UserLinks includeRss />
       </S.LinkGrid>
       <S.Info>
         <Caption>
           <AnimatedLink to="https://www.panoramacars.ae">
-            Panorama Rent A Cars
+           © Panorama Rent A Cars L.L.C, UAE
           </AnimatedLink>
         </Caption>
         <Caption>2023</Caption>

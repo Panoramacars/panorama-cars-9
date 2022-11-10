@@ -10,8 +10,6 @@ import ArticleCardSkeleton from "./Skeleton";
 
 import * as S from "./styles";
 
-import logow from "./logow.svg";
-
 type ArticleHeroCardProps = {
   post?: Types.Post;
   hero?: boolean;
@@ -39,12 +37,8 @@ const ArticleCard = ({ post, hero }: ArticleHeroCardProps): JSX.Element => {
               {/* Display as an H2 for accessibility and title semantics */}
               <H3 as="h2">{post.title}</H3>
             </TransparentLink>
-            function App() {
-              return (
-                <div className="App">
-                  <img src={logow} className="logow" alt="" />
-                  </div>
           </S.Header>
+          Call us
         </S.Meta>
         {hero && <ReadButton to={post.slug} />}
       </S.Details>

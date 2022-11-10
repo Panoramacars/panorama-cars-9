@@ -39,9 +39,9 @@ const ArticleCard = ({ post, hero }: ArticleHeroCardProps): JSX.Element => {
             </TransparentLink>
           </S.Header>
          <div class="row">
-         <div class="col-sm" href="#">Call</div>
-         <div class="col-sm" href="#">Visit</div>
-        <div class="col-sm" href="#">Whatsapp</div>
+         <a class="col-sm" href="#">Call</a>
+         <a class="col-sm" href="#">Visit</a>
+        <a class="col-sm" href="#">Whatsapp</a>
          </div>
         </S.Meta>
         {hero && <ReadButton to={post.slug} />}

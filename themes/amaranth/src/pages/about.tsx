@@ -13,7 +13,7 @@ const colomnStyles = { display: 'table', width: '100%', tableLayout: 'fixed', bo
 
 const gmap_canvasStyles = {overflow:'hidden',background:'none!important',height:'500px',width:'1600px'}
 const buttonStyles = { backgroundColor:'#d83850',display: 'table-cell', borderRadius: '8px', textAlign: 'center',
-color: 'white',fontFamily: 'Alfa Slab One',textDecoration: 'none',margin: '4%',marginRight: '80'}
+color: 'white',fontFamily: 'Alfa Slab One',textDecoration: 'none',margin: '4%',marginRight: '60%'}
 
 const AboutPage = (): JSX.Element => {
   const config = useConfig();

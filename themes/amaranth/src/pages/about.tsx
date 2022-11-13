@@ -26,7 +26,7 @@ const AboutPage = (): JSX.Element => {
 
          <div style={contentStyles}>
          <div style={titleStyles}>
-         <h2>Panorama Rent A Car L.L.C</h2>
+         <h2>Panorama Rent A Car</h2>
          </div>
          <br></br>
          <br></br>

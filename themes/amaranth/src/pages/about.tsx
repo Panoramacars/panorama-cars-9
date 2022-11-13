@@ -11,6 +11,7 @@ const mapouterStyles = {position:'relative',textAlign:'right',height:'500px',wid
 
 const colomnStyles = { display: 'table', width: '100%', tableLayout: 'fixed', borderSpacing: '10px'}
 
+const titleStyles = {testAlign:'center'}
 const gmap_canvasStyles = {overflow:'hidden',background:'none!important',height:'500px',width:'1600px'}
 const buttonStyles = { backgroundColor:'#d83850',display: 'table-cell', borderRadius: '8px', textAlign: 'center',
 color: 'white',fontFamily: 'Alfa Slab One',textDecoration: 'none',margin: '4%',marginRight: '60%'}
@@ -22,13 +23,20 @@ const AboutPage = (): JSX.Element => {
     <Layout>
       <div>
         <Helmet title={`About | ${config.website.title}`} />
-     
+
          <div style={contentStyles}>
+         <div style={titleStyles}>
+         <h2>Panorama Rent A Car L.L.C</h2>
+         </div>
+         <br></br>
+         <br></br>
+         <br></br>
          <h3>
 About us
 </h3>
 <br></br>
 <br></br>
+
          <p><b>PANORAMA RENT A CAR</b> established in 2022 at the emirates of Abu Dhabi, United Arab Emirates. Our first branch is located strategically within Al Nayhan
 District to serve the booming area at the center of Abu Dhabi and beyond.
 &nbsp;&nbsp;&nbsp;&nbsp;</p>
@@ -111,7 +119,7 @@ P.O BOX: 110177
  </div>
 
 <div style={buttonStyles}>
-     <a style={colomnStyles} href="https://www.google.com/maps/place/Panorama+Rent+A+Car+-+Al+Hafiz+St+-+Al+Nahyan+-+E25+-+Abu+Dhabi/@24.4625916,54.3868063,17z/data=!4m6!3m5!1s0x3e5e691864e9fa93:0xae942f6d9cca5632!8m2!3d24.4625916!4d54.3868063!16s%2Fg%2F11tbz0dxv1?hl=en>"> Get Location</a>
+     <a style={colomnStyles} href="https://goo.gl/maps/VqCtQSjtJoBqNoGw8"> Get Location</a>
   </div>
     <div style={mapouterStyles}>
     <div style={gmap_canvasStyles}>
@@ -127,5 +135,7 @@ P.O BOX: 110177
     
   );
 };
+
+
 
 export default AboutPage;

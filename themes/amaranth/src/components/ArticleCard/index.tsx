@@ -16,7 +16,7 @@ type ArticleHeroCardProps = {
   hero?: boolean;
 };
 const rowStyles = { backgroundColor:'#d83850',display: 'table-cell', borderRadius: '8px', textAlign: 'center',
-color: 'white',fontFamily: 'Alfa Slab One'}
+color: 'white',fontFamily: 'Alfa Slab One',textDecoration: 'none'}
 const colomnStyles = { display: 'table', width: '100%', tableLayout: 'fixed', borderSpacing: '10px'}
 const ArticleCard = ({ post, hero }: ArticleHeroCardProps): JSX.Element => {
   // If no post is provided, render a skeleton view with a loading animation

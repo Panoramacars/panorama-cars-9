@@ -44,8 +44,8 @@ const ArticleCard = ({ post, hero }: ArticleHeroCardProps): JSX.Element => {
           
        <div style={colomnStyles}>
          <a style={rowStyles} className="col-sm" href="tel:0527900414">Call</a>
-         <a style={rowStyles} className="col-sm" href="#">Visit</a>
-         <a style={rowStyles} className="col-sm" href="#">Whatsapp</a>
+         <a style={rowStyles} className="col-sm" href="https://goo.gl/maps/VqCtQSjtJoBqNoGw8">Visit</a>
+         <a style={rowStyles} className="col-sm" href="https://api.whatsapp.com/send?phone=971527900414&text=Hi%20Message%20from%20www.panoramacars.ae">Whatsapp</a>
          </div>
         </S.Meta>
         {hero && <ReadButton to={post.slug} />}

@@ -23,7 +23,7 @@ const Footer = (): JSX.Element => {
             Panorama Cars 
           </AnimatedLink>
         </Caption>
-        <Caption>© 2023 Panorama Rent A Cars L.L.C, UAE</Caption>
+        <Caption>© 2023 Panorama Rent A Cars, UAE</Caption>
       </S.Info>
     </S.Wrapper>
   );

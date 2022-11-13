@@ -8,13 +8,16 @@ import { TransparentLink } from "../Links";
 
 import ArticleCardSkeleton from "./Skeleton";
 
+
 import * as S from "./styles";
 
 type ArticleHeroCardProps = {
   post?: Types.Post;
   hero?: boolean;
 };
-
+const rowStyles = { backgroundColor:'#d83850',display: 'table-cell', borderRadius: '8px', textAlign: 'center',
+color: 'white',fontFamily: 'Alfa Slab One'}
+const colomnStyles = { display: 'table', width: '100%', tableLayout: 'fixed', borderSpacing: '10px'}
 const ArticleCard = ({ post, hero }: ArticleHeroCardProps): JSX.Element => {
   // If no post is provided, render a skeleton view with a loading animation
   if (!post) return <ArticleCardSkeleton />;
@@ -38,10 +41,11 @@ const ArticleCard = ({ post, hero }: ArticleHeroCardProps): JSX.Element => {
               <H3 as="h2">{post.title}</H3>
             </TransparentLink>
           </S.Header>
-         <div class="row">
-         <a class="col-sm" href="#">Call</a>
-         <a class="col-sm" href="#">Visit</a>
-        <a class="col-sm" href="#">Whatsapp</a>
+          
+       <div style={colomnStyles}>
+         <a style={rowStyles} className="col-sm" href="tel:0527900414">Call</a>
+         <a style={rowStyles} className="col-sm" href="#">Visit</a>
+         <a style={rowStyles} className="col-sm" href="#">Whatsapp</a>
          </div>
         </S.Meta>
         {hero && <ReadButton to={post.slug} />}

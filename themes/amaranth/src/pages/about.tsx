@@ -12,7 +12,7 @@ const mapouterStyles = {position:'relative',textAlign:'right',height:'500px',wid
 const colomnStyles = { display: 'table', width: '100%', tableLayout: 'fixed', borderSpacing: '10px'}
 
 const titleStyles = {testAlign:'center'}
-const gmap_canvasStyles = {overflow:'hidden',background:'none!important',height:'500px',width:'1600px'}
+const gmap_canvasStyles = {overflow:'hidden',background:'none!important',height:'500px',width:'500px'}
 const buttonStyles = { backgroundColor:'#d83850',display: 'table-cell', borderRadius: '8px', textAlign: 'center',
 color: 'white',fontFamily: 'Alfa Slab One',textDecoration: 'none',margin: '4%',marginRight: '60%'}
 
@@ -123,7 +123,7 @@ P.O BOX: 110177
   </div>
     <div style={mapouterStyles}>
     <div style={gmap_canvasStyles}>
-      <iframe width="1600" height="1000" id="gmap_canvas" 
+      <iframe width="500" height="500" id="gmap_canvas" 
       src="https://maps.google.com/maps?q=panorama%20rent%20a%20car&t=&z=13&ie=UTF8&iwloc=&output=embed" 
       frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
         </iframe>

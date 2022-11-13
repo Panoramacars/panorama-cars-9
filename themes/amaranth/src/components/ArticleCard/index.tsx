@@ -15,7 +15,7 @@ type ArticleHeroCardProps = {
   post?: Types.Post;
   hero?: boolean;
 };
-const rowStyles = { backgroundColor:'#d83850',display: 'table-cell', borderRadius: '8px', textAlign: 'center',
+const rowStyles = { backgroundColor:'#d83850',display: 'table-cell', borderRadius: '5px', textAlign: 'center',
 color: 'white',fontFamily: 'Alfa Slab One',textDecoration: 'none'}
 const colomnStyles = { display: 'table', width: '100%', tableLayout: 'fixed', borderSpacing: '10px'}
 const ArticleCard = ({ post, hero }: ArticleHeroCardProps): JSX.Element => {

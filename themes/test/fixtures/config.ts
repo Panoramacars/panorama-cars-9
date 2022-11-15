@@ -27,13 +27,13 @@ const config: SiteConfig = {
     id: "AdvancedUser", // Unique identifier of the user on the website. User for OpenGraph SEO tags
     firstName: "First", // Used for SEO
     lastName: "Last", // Used for SEO
-    twitterName: "Vagr9K", // Twitter username used for SEO
+    twitterName: "", // Twitter username used for SEO
     linkedIn: "your-linkedin", // Used for contact information
     github: "vagr9k", // Used for contact information
     email: "info@panoramacars.ae", // Used for contact information and in the RSS feed
-    location: "User Location", // User location used for SEO
-    about: "A full-stack web developer looking for a challenge!", // User information used for the author section
-    avatar: "https://i.pravatar.cc/300", // User avatar used for the author section
+    location: "United Arab Emirates", // User location used for SEO
+    about: "", // User information used for the author section
+    avatar: "", // User avatar used for the author section
   },
 
   // Organization information used for SEO

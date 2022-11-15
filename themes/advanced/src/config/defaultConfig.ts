@@ -3,13 +3,13 @@ import { SiteConfig } from "./types";
 const config: SiteConfig = {
   // Website configuration
   website: {
-    title: "Panorama Cars", // Homepage title
-    titleShort: "Panorama Cars", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation
+    title: "Panorama Rent a Cars", // Homepage title
+    titleShort: "Panorama Rent a Cars", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation
     name: "Panorama Rent A Cars", // Website name used for homescreen (PWA) and SEO
     description: "Panorama Rent A Cars, Abu Dhabi UAE.", // Website description used for RSS feeds/meta description tag
     language: "en", // Sets the global HTML lang attribute
     logoUrl: "/logos/logo-1024.png", // Logo used for SEO
-    url: "https://example.com", // Domain of your website without the pathPrefix
+    url: "https://panoramacars.ae", // Domain of your website without the pathPrefix
     rss: "/rss.xml", // Path to the RSS file
     rssTitle: "Panorama Cars RSS Feed", // Title of the RSS feed
     copyright: "© Copyright 2023", // Copyright string for the footer of the website and RSS feed.

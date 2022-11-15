@@ -75,7 +75,7 @@ const MobileCaption = css`
 const MobileOverline = css`
   font-family: "Fira Sans", sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 200;
   font-size: 10px;
   line-height: 16px;
   letter-spacing: 1.5px;
@@ -157,7 +157,7 @@ const DesktopCaption = css`
 const DesktopOverline = css`
   font-family: "Fira Sans", sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 200;
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 1.5px;
@@ -243,7 +243,7 @@ const CodeStyle = css`
 const ButtonLabelStyle = css`
   font-family: "Fira Sans", sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 200;
   font-size: 18px;
   line-height: 16px;
   letter-spacing: 1.25px;

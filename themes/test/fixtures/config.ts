@@ -4,7 +4,7 @@ const config: SiteConfig = {
   // Website configuration
   website: {
     title: "Panorama Rent a Car", // Homepage title
-    titleShort: "Panorama Cars", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation
+    titleShort: "Panorama Rent a Car", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation
     name: "Panorama Rent a Car", // Website name used for homescreen (PWA) and SEO
     description: "A GatsbyJS starter equipped with advanced features.", // Website description used for RSS feeds/meta description tag
     language: "en",
@@ -39,7 +39,7 @@ const config: SiteConfig = {
   // Organization information used for SEO
   organization: {
     name: "Panorama Rent a Car",
-    description: "Organization description",
+    description: "Panorama Rent a Car, Abu Dhabi-United Arab Emirates",
     logoUrl: "/logos/logo-512.png",
     url: "https://www.panoramacars.ae", // URL of the organization website
   },

@@ -15,7 +15,7 @@ const config: SiteConfig = {
     rss: "/rss.xml", // Path to the RSS file
     rssTitle: "Gatsby Advanced Starter RSS Feed", // Title of the RSS feed
 
-    googleAnalyticsId: "UA-XXXXXXXX-A", // GA tracking ID
+    googleAnalyticsId: "G-F8CW7WPWKJ", // GA tracking ID
     copyright: "© Copyright 2023 | Panorama Rent A Car L.L.C", // Copyright string for the footer of the website and RSS feed.
 
     themeColor: "#D83850", // Used for setting manifest and progress theme colors.
